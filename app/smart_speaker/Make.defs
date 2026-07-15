@@ -1,0 +1,7 @@
+############################################################################
+# Contest 2026 team 092 NAILTEAM smart speaker - Make.defs
+############################################################################
+
+ifneq ($(CONFIG_EXAMPLES_SMART_SPEAKER),)
+CONFIGURED_APPS += $(APPDIR)/smart_speaker
+endif
